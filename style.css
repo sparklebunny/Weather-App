@@ -1,0 +1,61 @@
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 80rem;
+	background-color: #fdfae8;
+}
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 4rem;
+}
+ h2 {
+ 	font-size: 3.25rem;
+ }
+
+h2, p {
+	font-family: 'Alice', serif;
+}
+
+p {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.weather_background {
+	background: transparent;
+}
+
+.content,
+.weather {
+	background-color: rgba(255, 255, 255, .6);
+	margin: 4rem;
+}
+
+.content {
+	padding-top: 2rem;
+}
+
+#current_location {
+	font-variant: small-caps;
+}
+
+
+.weather {
+	background: transparent;
+	padding-bottom: 2rem;
+}
+
+#weather_icon {
+	background: url() no-repeat;
+	height: 6rem;
+	width: auto;
+	text-align: center;
+}
+
+
+
+
+
+
+

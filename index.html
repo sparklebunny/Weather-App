@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- Latest compiled and minified Bootstrap CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Alice|Lobster+Two" rel="stylesheet">
+	<!-- Site Stylsheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Font Awesome CDN -->
+	<script src="https://use.fontawesome.com/b7dc2830a9.js"></script>
+	<!--jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js
+"></script>
+	<!-- jQuery 1.5.1 for weather underground api -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	
+	<!-- Site JS -->
+	<script type="text/javascript" src="app.js"></script>
+	<!-- Site JS on server -->
+	<!-- <script type="text/javascript" src="http://www.codedini.com/codepen-projects/weather_app/js/app.js"></script> -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Local Weather App</title>
+</head>
+<body id="body">
+	<section id="weather_condition" class="panel weather_background">
+		<div class="content text-center">
+			<h1>WeatherWise</h1>
+			<h2>The weather for <span id="current_location" class="location"> location </span> today is:</h2>
+			<div id="current_weather" class="weather">
+				<p id="weather_btn_p">Temp: <button id="weather_temp" alt="temperature in farenheight or celcius"></button></p>
+				<p id="weather_description"></p>
+				<p id="weather_humid" class="humid">Humidity: </p>
+				<p id="weather_wind" class="wind">Wind Speed: </p>
+				<img id="weather_icon" src="https://icons.wxug.com/i/c/i/mostlysunny.gif" alt="icon of current weather"/>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
