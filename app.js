@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-	//needed before API URL in Codepen
-	//https://crossorigin.me/
 
 		function getLocation() {
 
@@ -38,7 +36,7 @@ $(document).ready(function() {
 
 		function currentWeather(lat, lon) {
 			$.ajax( {
-				url: "http://api.wunderground.com/api/909354c576a9f2c6/geolookup/location/conditions/q/" + lat + "," + lon + ".json",
+				url: "https://api.wunderground.com/api/909354c576a9f2c6/geolookup/location/conditions/q/" + lat + "," + lon + ".json",
 				// url: "http://api.wunderground.com/api/909354c576a9f2c6/geolookup/conditions/icon/q/WA/Seattle.json",
 
 				dataType: "jsonp",
